@@ -11,7 +11,8 @@ package hengerprogram;
 public class Henger {
 
     private static int hengerDarab;
-    private double sugar, magassag;
+    private double sugar;
+    private double magassag;
 
     public Henger(double sugar, double magassag) {
         this.sugar = sugar;
@@ -36,6 +37,10 @@ public class Henger {
 
     public void setMagassag(double magassag) {
         this.magassag = magassag;
+    }
+    
+    public double terfogat() {
+        return Math.pow(sugar, 2) * Math.PI * magassag;
     }
 
     @Override

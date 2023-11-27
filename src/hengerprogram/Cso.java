@@ -22,4 +22,9 @@ public class Cso extends TomorHenger {
         this.falvastagsag = falvastagsag;
     }
 
+    @Override
+    public double terfogat() {
+        return (Math.pow(getSugar(), 2) * Math.PI * getMagassag()) - (Math.pow(getSugar() - falvastagsag, 2) * Math.PI * getMagassag());
+    }
+
 }
