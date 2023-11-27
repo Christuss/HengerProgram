@@ -26,7 +26,7 @@ public class TomorHenger extends Henger {
     }
     
     public double suly() {
-        return terfogat() * fajsuly;
+        return super.terfogat() * fajsuly;
     }
     
     

@@ -15,6 +15,7 @@ public class Henger {
     private double magassag;
 
     public Henger(double sugar, double magassag) {
+        Henger.hengerDarab++;
         this.sugar = sugar;
         this.magassag = magassag;
     }
